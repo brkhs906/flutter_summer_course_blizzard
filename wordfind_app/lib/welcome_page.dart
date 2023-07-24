@@ -8,17 +8,13 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          children: [
-            GradientText('game ', 31.6),
-            GradientLetter('w'),
-            GradientLetter('O'),
-            GradientLetter('R'),
-            GradientLetter('D'),
-          ],
+        body: Container(
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets/images/back1.png' )
+              )
+          ),
         ),
-      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Container(
@@ -46,6 +42,9 @@ class WelcomePage extends StatelessWidget {
           
         ),
       ),
+   backgroundColor: Color(0xFFFBF5F2),
+
+
     );
   }
 }
