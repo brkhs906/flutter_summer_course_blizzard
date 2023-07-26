@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb654d5-6ac1-4e9c-a473-bedf90c975da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../day_10_dart/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_10_dart/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aeb654d5-6ac1-4e9c-a473-bedf90c975da" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +32,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",

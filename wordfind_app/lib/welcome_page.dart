@@ -8,13 +8,11 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-          decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage('assets/images/back1.png' )
-              )
-          ),
-        ),
+      body: Container(
+        decoration: const BoxDecoration(
+            image:
+                DecorationImage(image: AssetImage('assets/images/back1.png'), fit: BoxFit.cover)),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Container(
@@ -29,22 +27,25 @@ class WelcomePage extends StatelessWidget {
             borderRadius: BorderRadius.circular(25),
           ),
           child: ElevatedButton(
-            onPressed: (){},
+            onPressed: () {},
             style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.transparent,
-              elevation: 0,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(25),
-                
-              )
-            ), child: null,
+                elevation: 0,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(25),
+                )),
+            child: Text(
+              'PLAY',
+              style: TextStyle(
+                  fontFamily: 'Nunito',
+                  fontSize: 24,
+                  fontWeight: FontWeight.w700),
+            ),
           ),
-          
         ),
       ),
-   backgroundColor: Color(0xFFFBF5F2),
-
-
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      backgroundColor: Color(0xFFFBF5F2),
     );
   }
 }
