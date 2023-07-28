@@ -34,10 +34,8 @@ class GradientLetter extends StatelessWidget {
                   TextStyle(fontSize: 32, height: 52 / 38, color: Colors.white),
             ),
           ),
-          GradientLetter('W'),
-          GradientLetter('O'),
-          GradientLetter('R'),
-          GradientLetter('D'),
+
+
         ),
       ),
     );
