@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb654d5-6ac1-4e9c-a473-bedf90c975da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../wordfind_app/lib/gradient_letter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../wordfind_app/lib/gradient_letter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_15_flutter/lib/dart_lesson_day_16.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_15_flutter/lib/stop_watch.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_15_flutter/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../day_15_flutter/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
