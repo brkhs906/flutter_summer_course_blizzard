@@ -9,9 +9,9 @@ class TaskModel{
   List<CharModel> puzzles = [];
   List<String> arrayButtons = [];
   TaskModel({
-  Required this.pathImage,
-  Required this.question,
-  Required this.answer
+  required this.pathImage,
+  required this.question,
+  required this.answer,
   this.arrayButtons = const []
 })
 
