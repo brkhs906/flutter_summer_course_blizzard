@@ -3,7 +3,7 @@ import 'package:wordfind_app/gradient_text.dart';
 import 'package:wordfind_app/input_field.dart';
 import 'package:wordfind_app/models/user_models.dart';
 
-User newUser = User("Guest", 0);
+User newUser = User("Guest", 0);,
 
 class StartPage extends StatefulWidget {
   const StartPage({super.key});
