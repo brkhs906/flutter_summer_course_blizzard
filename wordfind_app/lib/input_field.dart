@@ -9,19 +9,18 @@ class InputField extends StatefulWidget {
 }
 
 class _InputFieldState extends State<InputField> {
-late TextEditingController _textEditingController;
-@override
+  late TextEditingController _textEditingController;
+  @override
   void initState() {
-  _textEditingController=TextEditingController();
+    _textEditingController = TextEditingController();
     super.initState();
   }
+
   @override
   void dispose() {
-   _textEditingController.dispose();
+    _textEditingController.dispose();
     super.dispose();
   }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +28,9 @@ late TextEditingController _textEditingController;
         width: 310,
         height: 50,
         child: TextField(
-          onSubmitted: (String value) {widget.onSubmitted(value); },
+          onSubmitted: (String value) {
+            widget.onSubmitted(value);
+          },
           maxLines: 1,
           style: TextStyle(
             color: Color(0xFFE86B02),
@@ -53,8 +54,9 @@ late TextEditingController _textEditingController;
                   color: Color(0xFFE86B02),
                 ),
               ),
-          border: OutlineInputBorder(borderRadius: BorderRadius.circular(25),
-          borderSide: BorderSide(width: 0, style: BorderStyle.none))),
+              border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(25),
+                  borderSide: BorderSide(width: 0, style: BorderStyle.none))),
         ));
   }
 }

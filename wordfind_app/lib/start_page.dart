@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:wordfind_app/gradient_text.dart';
 import 'package:wordfind_app/input_field.dart';
+import 'package:wordfind_app/models/user_models.dart';
 
-class StartPage extends StatelessWidget {
+User newUser = User("Guest", 0);
+
+class StartPage extends StatefulWidget {
   const StartPage({super.key});
 
+  @override
+  State<StartPage> createState() => _StartPageState();
+}
+
+class _StartPageState extends State<StartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,8 +49,6 @@ class StartPage extends StatelessWidget {
               Padding(padding: EdgeInsets.only(top: 20)),
               GradientText('Player Name', 20.0),
               //InputField() );
-
-
             ],
           ),
         ),
@@ -50,6 +56,13 @@ class StartPage extends StatelessWidget {
       floatingActionButton: StartButton(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
+  }
+
+  _createUser(String userName) {
+    setState(() {
+      newUser.userName;
+    });
+
   }
 }
 
@@ -70,8 +83,7 @@ class StartButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(25),
       ),
       child: ElevatedButton(
-        onPressed: () {
-          },
+        onPressed: () {},
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.transparent,
           elevation: 0,
